@@ -1,0 +1,104 @@
+  body
+  {
+    
+    background-color: #010a15;
+  }
+  
+  
+  
+  .remember {
+    
+    
+    padding-bottom: 25px;
+    /* font-weight: bold; */
+    font-size: 18px;
+    padding-right: 120px;
+
+}
+.remember label{
+  color: white;
+  font-size: 18px;
+}
+
+.forget {
+  
+  position: relative;
+
+}
+  
+  .login-container {
+    border: 2px solid red;
+    height: 450px;
+    width: 310px;
+    margin: 100px auto;
+    background-color: #022b56;
+    padding: 20px;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h1 {
+    color: white;
+    text-align: center;
+    padding-bottom:35px ;
+    
+  }
+  .forget a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    position: relative;
+    left: 150px;
+    top: -45px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+
+    width: 93%;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    background-color: #022b56;
+  }
+  
+  button {
+    width: 98%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button a{
+    /* width: 25px; */
+    /* height: 20px; */
+    content: none;
+     color: white;
+     font-size: 18px;
+
+     text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
